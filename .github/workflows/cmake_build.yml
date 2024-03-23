@@ -36,7 +36,7 @@ jobs:
           vcpkg_triplet: x64-linux-dynamic
 
         - name: macOS_Intel
-          os: macos-latest
+          os: macos-13
           arch: Intel # as reported by Apple menu > About This Mac
           generator: Ninja
           cc: cc
